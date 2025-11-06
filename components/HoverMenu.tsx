@@ -4,7 +4,7 @@ export default function HoverMenu() {
   const menuItems = [
     { href: "/shop", label: "Shop", icon: "/shopping.png" },
     { href: "/friends-list", label: "Friends List", icon: "/friendslist.png" },
-    { href: "/friends-feed", label: "Friends Feed", icon: "/friendspost.png" },
+    { href: "/friends-feed", label: "Friends Feed", icon: "/FriendsPost.png" },
     { href: "/search", label: "Search", icon: "/search-icon.png" },
     { href: "/local-feed", label: "Local Feed", icon: "/local.png" },
     { href: "/account", label: "Account", icon: "/pfp-square.png" },
