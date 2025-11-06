@@ -9,7 +9,7 @@ export default function Home() {
     <div className="relative w-screen h-screen overflow-hidden">
       {/* Layer 1 - Base background */}
       <Image
-        src="/imagemain.png" // replace with your base background image
+        src="/Background.png" // replace with your base background image
         alt="Background Layer 1"
         fill
         style={{ objectFit: "fill", zIndex: 0 }}
