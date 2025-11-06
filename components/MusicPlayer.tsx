@@ -12,7 +12,7 @@ export default function MusicPlayer() {
   const songs: Song[] = [
     { src: "/dim.mp3", title: "Dearest, I'm So Sorry", albumCover: "/pmb.jpg" },
     { src: "/shitknot.mp3", title: "Nero Forte", albumCover: "/shitknot.jpg" },
-    { src: "/mysong.mp3", title: "My Song", albumCover: "/myalbum.png" },
+    { src: "/FNF.mp3", title: "Flexin' N Finesse", albumCover: "/LilJay.png" },
   ];
 
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
