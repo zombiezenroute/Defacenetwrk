@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function HoverMenu() {
   const menuItems = [
-    { href: "/shop", label: "Shop", icon: "/shop-icon.png" },
-    { href: "/friends-list", label: "Friends List", icon: "/friends-icon.png" },
-    { href: "/friends-feed", label: "Friends Feed", icon: "/feed-icon.png" },
+    { href: "/shop", label: "Shop", icon: "/shopping.png" },
+    { href: "/friends-list", label: "Friends List", icon: "/friendslist.png" },
+    { href: "/friends-feed", label: "Friends Feed", icon: "/friendspost.png" },
     { href: "/search", label: "Search", icon: "/search-icon.png" },
-    { href: "/local-feed", label: "Local Feed", icon: "/local-icon.png" },
+    { href: "/local-feed", label: "Local Feed", icon: "/local.png" },
     { href: "/account", label: "Account", icon: "/pfp-square.png" },
   ];
 
@@ -26,7 +26,7 @@ export default function HoverMenu() {
           }}
         >
           {/* Grid of icons */}
-          <div className="grid grid-cols-2 gap-6 px-6 justify-items-end">
+          <div className="grid grid-cols-2 gap-6 px-10 justify-items-end">
             {menuItems.map((item) => (
               <Link
                 key={item.href}
@@ -36,8 +36,8 @@ export default function HoverMenu() {
                 {/* Icon with hover scale */}
                 <img
                   src={item.icon}
-                  width={50}
-                  height={50}
+                  width={75}
+                  height={75}
                   className="transition-transform duration-200 ease-in-out hover:scale-110"
                 />
                 <span className="text-white text-sm text-center">
