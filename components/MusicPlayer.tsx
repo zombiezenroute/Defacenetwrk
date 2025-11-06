@@ -11,7 +11,7 @@ interface Song {
 export default function MusicPlayer() {
   const songs: Song[] = [
     { src: "/dim.mp3", title: "Dearest, I'm So Sorry", albumCover: "/pmb.jpg" },
-    { src: "/shitknot.mp3", title: "Nero Forte", albumCover: "/shitknot.jpg" },
+    { src: "/Kilos.mp3", title: "Kilos", albumCover: "/Kilos.jpg" },
     { src: "/FNF.mp3", title: "Flexin' N Finesse", albumCover: "/LilJay.jpg" },
   ];
 
